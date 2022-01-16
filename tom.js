@@ -34,7 +34,7 @@ window.addEventListener("load", () => {
                     loc.textContent = data.name + "," + data.sys.country;
                     let icon1 = data.weather[0].icon;
                     icon.innerHTML =
-                        `<img src="https://www.pngrepo.com/png/287070/512/cloudy-cloud.png" style= 'height:10rem'/>`;
+                        `<img src="https://www.pngrepo.com/png/259677/512/cloudy-clouds-and-sun.png" style= 'height:10rem'/>`;
                 });
         });
     }
